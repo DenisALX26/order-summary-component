@@ -1,0 +1,100 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  size: 16px;
+  font-family: "Red Hat Display", sans-serif;
+}
+
+body {
+  background-image: url(pattern-background-desktop.svg);
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+main {
+  background-color: white;
+  border-radius: 15px;
+  width: 29rem;
+  margin: 10rem 0;
+}
+
+.avatar {
+  min-width: 100%;
+  border-radius: 15px 15px 0px 0px;
+  margin-bottom: 3rem;
+}
+
+h1 {
+  text-align: center;
+  font-weight: 900;
+  color: #1e2e52;
+  margin-bottom: 1rem;
+}
+
+.add {
+  text-align: center;
+  margin: 0 3.75rem 2.5rem 3.75rem;
+  font-weight: 700;
+  color: #9096b0;
+}
+
+p {
+  color: #1e2e52;
+  font-weight: 700;
+}
+
+.price {
+  color: #9096b0;
+  font-weight: 500;
+}
+
+.plan {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  gap: 1rem;
+  background-color: #f8f9fe;
+  border-radius: 15px;
+  margin: 0 1.7rem 3.25rem 1.7rem;
+  padding: 1.7rem;
+}
+
+span {
+  text-decoration: underline;
+  color: #3d37a5;
+  text-decoration: underline;
+  font-weight: 700;
+}
+
+.buttons {
+  display: grid;
+  grid-template-rows: auto auto;
+  justify-content: center;
+}
+
+.payment {
+  background-color: #382ae1;
+  border-radius: 15px;
+  text-decoration: none;
+  padding: 1rem 5.3rem;
+  margin-bottom: 2.5rem;
+  color: white;
+}
+
+.cancel {
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 2.5rem;
+  color: #76819f;
+}
+
+.container {
+  flex-basis: 20rem;
+}
